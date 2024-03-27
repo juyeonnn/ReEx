@@ -2,7 +2,11 @@
 This repository contains official implementation for [Re-Ex: Revising after Explanation reduces the Factual Errors in LLM Responses](https://arxiv.org/abs/2402.17097). 
 
 
-## Getting Started
+## Evironmental Setup
+```python
+export OPENAI_API_KEY="..."
+export SERPER_API_KEY="..."
+```
 
 ## Usage
 
