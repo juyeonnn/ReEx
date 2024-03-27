@@ -1,5 +1,5 @@
 # Re-Ex: Revising after Explanation reduces the Factual Errors in LLM Responses
-This repository contains official code for [Re-Ex: Revising after Explanation reduces the Factual Errors in LLM Responses](https://arxiv.org/abs/2402.17097). 
+This repository contains official implementation for [Re-Ex: Revising after Explanation reduces the Factual Errors in LLM Responses](https://arxiv.org/abs/2402.17097). 
 
 
 ## Getting Started
