@@ -4,7 +4,7 @@
 Official Implementation for our paper  **Re-Ex: Revising after Explanation reduces the Factual Errors in LLM Responses** in ICLR 2024 [Workshop on Reliable and Responsible Foundation Models](https://iclr-r2fm.github.io)
 
 
-## Evironmental Setup
+## Setup
 ```python
 export OPENAI_API_KEY="<OPENAI_API_KEY>"
 export SERPER_API_KEY="<SERPER_API_KEY>"
