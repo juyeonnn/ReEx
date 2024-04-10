@@ -12,7 +12,7 @@ export SERPER_API_KEY="<SERPER_API_KEY>"
 
 ## Usage
 ```python
-python test.py
+TBD
 ```
 
 ## Citation
