@@ -1,0 +1,18 @@
+## Prompt Template for Re-Ex (one-step) 
+
+system: |-
+  You are a brilliant fact-checking expert.
+user: |-
+  You will receive an initial response along with a prompt. Your goal is to refine and enhance this response,
+  ensuring its factual accuracy. Check for any factually inaccurate information in the initial response.
+  Use the provided sub-questions and corresponding answers as key resources in this process. Sub-questions and
+  Answers :
+  {subqa_result}
+  ...
+  Prompt: {prompt}
+  Initial Response: {response}
+  Please explain the factual errors in the initial response, and revise it accordingly.
+  If there are no factual errors, respond with ”None”.
+  If there are factual errors, explain each factual error.
+  Factual Errors:
+  Revised Response:

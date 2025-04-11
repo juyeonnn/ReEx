@@ -1,0 +1,51 @@
+## Prompt Template for evaluating revision task based on NLI
+## Adapted from the paper: Evaluating the Logical Reasoning Ability of ChatGPT and GPT-4 (Liu, Hanmeng, et al. 2023)
+
+## We use NLI to determine if the revised response corrects or preserves facts.
+# - Correction Accuracy: Measures the ratio of corrected fact units that were incorrectly stated initially.
+# - Revision Accuracy: Measures the ratio of correct fact units in the revised response.
+
+## Code Example:
+# rev_label = []
+# for n_idx, nli in enumerate(nli_result):
+#     if nli == 'e' and gt_label[n_idx]:
+#         rev_label.append(True)  # Right preserved
+#     elif nli in ['c', 'n'] and gt_label[n_idx]:
+#         rev_label.append(False)  # Wrong corrected
+#     elif nli == 'e' and not gt_label[n_idx]:
+#         rev_label.append(False)  # Wrong preserved
+#     elif nli in ['c', 'n'] and not gt_label[n_idx]:
+#         rev_label.append(True)  # Right corrected
+#     else:
+#         rev_label.append(True)  # Default case
+
+# # Calculate accuracy metrics
+# true_idx = [j for j, x in enumerate(gt_label) if x]
+# false_idx = [j for j, x in enumerate(gt_label) if not x]
+
+# gt_label_true = [gt_label[j] for j in true_idx]
+# rev_label_true = [rev_label[j] for j in true_idx]
+# gt_label_false = [gt_label[j] for j in false_idx]
+# rev_label_false = [rev_label[j] for j in false_idx]
+
+# correction_accuracy = sum(rev_label_false) / len(rev_label_false) 
+# revision_accuracy = sum(rev_label) / len(rev_label)
+
+
+system: |-
+  You are a brilliant LLM.
+
+user: |-
+  You will be presented with a premise and a hypothesis about that premise. 
+  You need to decide whether the hypothesis is entailed by the premise by choosing one of the following answers: 
+  ’e’: The hypothesis follows logically from the information contained in the premise. 
+  ’c’: The hypothesis is logically false from the information contained in the premise. 
+  ’n’: It is not possible to determine whether the hypothesis is true or false without further information. 
+  Read the passage of information thoroughly and select the correct answer from the three answer labels. 
+  Read the premise thoroughly to ensure you know what the premise entails.
+  
+  Premise: {input} {premise}
+
+  Hypothesis: {hypothesis}
+
+  Answer : 

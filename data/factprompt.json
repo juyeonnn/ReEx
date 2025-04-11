@@ -1,0 +1,1282 @@
+[
+    {
+        "id": 0,
+        "input": "Which country or city has the maximum number of nuclear power plants?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The United States has the highest number of nuclear power plants in the world",
+                "The United States has 94 operating reactors",
+                "France has a significant number of nuclear power plants",
+                "China has a significant number of nuclear power plants",
+                "Russia has a significant number of nuclear power plants",
+                "South Korea has a significant number of nuclear power plants"
+            ],
+            "label": [
+                true,
+                false,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 6
+        },
+        "initial_response": [
+            "The United States has the highest number of nuclear power plants in the world, with 94 operating reactors.",
+            "Other countries with a significant number of nuclear power plants include France, China, Russia, and South Korea."
+        ]
+    },
+    {
+        "id": 1,
+        "input": "Who is the CEO of Twitter?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Jack Dorsey is the CEO of Twitter",
+                "Jack Dorsey co-founded Twitter in 2006",
+                "Jack Dorsey served as the CEO of Twitter until 2008",
+                "Jack Dorsey returned as CEO of Twitter in 2015",
+                "Jack Dorsey is the CEO and co-founder of Square",
+                "Time magazine recognized Jack Dorsey as one of the 100 most influential people in the world",
+                "Wall Street Journal awarded Jack Dorsey the Innovator of the Year Award"
+            ],
+            "label": [
+                false,
+                true,
+                false,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 7
+        },
+        "initial_response": [
+            "The CEO of Twitter at the time of writing this answer is Jack Dorsey.",
+            "He co-founded Twitter in 2006 and served as the CEO until 2008, and returned as CEO in 2015.",
+            "Dorsey is also the CEO and co-founder of Square, a financial services and mobile payment company.",
+            "He has been recognized as one of Time magazine's 100 most influential people in the world and has also been awarded the Innovator of the Year Award by Wall Street Journal."
+        ]
+    },
+    {
+        "id": 2,
+        "input": "Is Jupiter more dense than Saturn?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Jupiter is less dense than Saturn",
+                "Jupiter has a density of 1.33 grams per cubic centimeter",
+                "Saturn has a density of 0.69 grams per cubic centimeter",
+                "Jupiter is mostly made up of gas",
+                "Saturn has a larger proportion of solid materials in its composition"
+            ],
+            "label": [
+                false,
+                true,
+                false,
+                true,
+                false
+            ],
+            "num": 5
+        },
+        "initial_response": [
+            "No, Jupiter is less dense than Saturn.",
+            "Jupiter has a density of 1.33 grams per cubic centimeter, while Saturn has a density of 0.69 grams per cubic centimeter.",
+            "This is because Jupiter is mostly made up of gas, while Saturn has a larger proportion of solid materials in its composition."
+        ]
+    },
+    {
+        "id": 3,
+        "input": "How many sons had eise eisinga in total?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Eise Eisinga was a Dutch mathematician",
+                "Eise Eisinga was an astronomer",
+                "Eise Eisinga built an orrery in his house in Franeker, Netherlands",
+                "Little is known about Eise Eisinga's family life",
+                "There is no record of how many sons Eise Eisinga had",
+                "I cannot provide a specific answer to this question"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                false,
+                false,
+                true
+            ],
+            "num": 6
+        },
+        "initial_response": [
+            "Eise Eisinga was a Dutch mathematician and astronomer who is known for building an orrery in his house in Franeker, Netherlands.",
+            "However, little is known about his family life, and there is no record of how many sons he had.",
+            "So, unfortunately, I cannot provide a specific answer to this question."
+        ]
+    },
+    {
+        "id": 4,
+        "input": "How many times did Argentina win the FIFA world cup?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Argentina have won the FIFA World Cup two times",
+                "Argentina won the World Cup for the first time in 1978",
+                "Argentina hosted the tournament in 1978",
+                "Argentina won the World Cup again in 1986",
+                "Argentina won the World Cup in Mexico in 1986",
+                "Both victories were led by Diego Maradona",
+                "Argentina has not won the World Cup since 1986",
+                "Argentina made it to the final in 1990",
+                "Argentina made it to the semi-finals in 2010",
+                "Argentina made it to the semi-finals in 2014"
+            ],
+            "label": [
+                false,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                true,
+                false,
+                true
+            ],
+            "num": 10
+        },
+        "initial_response": [
+            "Argentina have won the FIFA World Cup two times.",
+            "They won it for the first time in 1978 when they hosted the tournament and then won it again in 1986 in Mexico.",
+            "Both victories were led by the legendary footballer Diego Maradona.",
+            "Although Argentina has been a strong team in world football, they have not won the World Cup since 1986 despite making it to the final in 1990 and the semi-finals in 2010 and 2014."
+        ]
+    },
+    {
+        "id": 5,
+        "input": "What is the fastest animal with wings and fur?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The peregrine falcon is the fastest animal with wings and fur",
+                "The peregrine falcon can reach speeds of over 240 miles per hour",
+                "The peregrine falcon can reach speeds of over 386 kilometers per hour",
+                "The peregrine falcon dives to catch prey"
+            ],
+            "label": [
+                false,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The fastest animal with wings and fur is the peregrine falcon, which can reach speeds of over 240 miles per hour (386 kilometers per hour) when diving to catch prey."
+        ]
+    },
+    {
+        "id": 6,
+        "input": "How many female US. Supreme Court justices have there been?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "There have been four female US Supreme Court justices",
+                "Sandra Day O'Connor is a female US Supreme Court justice",
+                "Ruth Bader Ginsburg is a female US Supreme Court justice",
+                "Sonia Sotomayor is a female US Supreme Court justice",
+                "Elena Kagan is a female US Supreme Court justice"
+            ],
+            "label": [
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "num": 5
+        },
+        "initial_response": [
+            "As of 2021, there have been four female US Supreme Court justices: Sandra Day O'Connor, Ruth Bader Ginsburg, Sonia Sotomayor, and Elena Kagan."
+        ]
+    },
+    {
+        "id": 7,
+        "input": "Where did fortune cookies originate?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Fortune cookies originated in Japan in the 19th century.",
+                "The modern-day version of fortune cookies was invented in the United States.",
+                "Fortune cookies made their way to San Francisco in the late 1800s and early 1900s through Japanese immigrants.",
+                "Fortune cookies were first served in Japanese tea shops.",
+                "Fortune cookies gained popularity in the Chinese-American community during the 20th century.",
+                "Fortune cookies became a staple in Chinese restaurants across the United States.",
+                "Fortune cookies are not a traditional Chinese invention.",
+                "Fortune cookies were created in America.",
+                "Fortune cookies are enjoyed by people all over the world.",
+                "Fortune cookies can often be found in Chinese and Asian restaurants.",
+                "Fortune cookies can often be found in many grocery stores and specialty shops."
+            ],
+            "label": [
+                false,
+                true,
+                true,
+                false,
+                true,
+                true,
+                true,
+                true,
+                false,
+                true,
+                true
+            ],
+            "num": 11
+        },
+        "initial_response": [
+            "'Fortune cookies originated in Japan in the 19th century.",
+            "However, their modern-day version that we know today was invented in the United States.",
+            "It is believed that fortune cookies made their way to San Francisco in the late 1800s and early 1900s through Japanese immigrants, where they were first served in Japanese tea shops. \\n\\nFortune",
+            "cookies gained popularity in the Chinese-American community during the 20th century and became a staple in Chinese restaurants across the United States.",
+            "Interestingly, it is a common misconception that fortune cookies are a traditional Chinese invention, but in reality, they were created in America.\\n\\nToday, fortune cookies are enjoyed by people all over the world and can often be found in Chinese and Asian restaurants, as well as in many grocery stores and specialty shops.'"
+        ]
+    },
+    {
+        "id": 8,
+        "input": "What is the most valuable Non-fungible Token (NFT)?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The most valuable NFT ever sold is a digital artwork called 'Everydays: The First 5000 Days'",
+                "'Everydays: The First 5000 Days' was created by the artist Beeple",
+                "'Everydays: The First 5000 Days' sold for $69 million",
+                "'Everydays: The First 5000 Days' was sold at a Christie's auction in March 2021"
+            ],
+            "label": [
+                false,
+                true,
+                false,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The most valuable NFT ever sold is a digital artwork called 'Everydays: The First 5000 Days' by the artist Beeple, which sold for $69 million at a Christie's auction in March 2021."
+        ]
+    },
+    {
+        "id": 9,
+        "input": "What is the most commonly used language in the world?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Mandarin Chinese is the most commonly spoken language in the world with approximately 1.3 billion speakers",
+                "Spanish is the second most spoken language with approximately 460 million speakers",
+                "English comes in third place with just over 400 million speakers worldwide",
+                "The question of the most commonly used language in the world can be somewhat subjective",
+                "Different sources may have slightly different numbers",
+                "The rankings could change depending on how you define a speaker of a language"
+            ],
+            "label": [
+                false,
+                false,
+                false,
+                true,
+                true,
+                true
+            ],
+            "num": 6
+        },
+        "initial_response": [
+            "As of 2021, the most commonly spoken language in the world is Mandarin Chinese, with approximately 1.3 billion speakers worldwide.",
+            "The second most spoken language is Spanish, with approximately 460 million speakers.",
+            "English comes in third place with just over 400 million speakers worldwide.\\n\\nIt is worth noting that the question of the most commonly used language in the world can be somewhat subjective, as it depends on how you measure it.",
+            "Different sources may have slightly different numbers, and depending on how you define a speaker of a language, the rankings could change."
+        ]
+    },
+    {
+        "id": 10,
+        "input": "What is the smallest ocean in the world?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The smallest ocean in the world is the Arctic Ocean",
+                "The Arctic Ocean is located in the northernmost part of the Earth",
+                "The Arctic Ocean is surrounded by the land masses of North America, Europe, and Asia",
+                "The Arctic Ocean covers an area of about 14.05 million square kilometers"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The smallest ocean in the world is the Arctic Ocean.",
+            "It is located in the northernmost part of the Earth and is surrounded by the land masses of North America, Europe, and Asia.",
+            "The Arctic Ocean covers an area of about 14.05 million square kilometers."
+        ]
+    },
+    {
+        "id": 11,
+        "input": "Who was the founder of Buddhism?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The founder of Buddhism was Siddhartha Gautama",
+                "Siddhartha Gautama is also known as the Buddha"
+            ],
+            "label": [
+                true,
+                true
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "The founder of Buddhism was Siddhartha Gautama, also known as the Buddha."
+        ]
+    },
+    {
+        "id": 12,
+        "input": "Which planet in our solar system has the most moons?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Jupiter has the most moons in our solar system",
+                "Jupiter has a total of 79 known moons as of 2021"
+            ],
+            "label": [
+                true,
+                false
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "Jupiter has the most moons in our solar system, with a total of 79 known moons as of 2021."
+        ]
+    },
+    {
+        "id": 13,
+        "input": "Who is the most decorated Olympian of all time?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Michael Phelps is the most decorated Olympian of all time",
+                "Michael Phelps is an American swimmer",
+                "Michael Phelps has won a total of 28 Olympic medals",
+                "Michael Phelps has won 23 gold medals"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The most decorated Olympian of all time is Michael Phelps, an American swimmer who has won a total of 28 Olympic medals, including 23 gold medals."
+        ]
+    },
+    {
+        "id": 14,
+        "input": "Who was the first African American woman to win the Nobel Prize in literature?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Toni Morrison won the Nobel Prize in literature",
+                "Toni Morrison was the first African American woman to win the Nobel Prize in literature",
+                "Toni Morrison won the Nobel Prize in literature in 1993"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "Toni Morrison was the first African American woman to win the Nobel Prize in literature in 1993."
+        ]
+    },
+    {
+        "id": 15,
+        "input": "What is the name of the world's oldest living tree?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The name of the world's oldest living tree is Methuselah",
+                "Methuselah is a Great Basin bristlecone pine tree",
+                "Methuselah is located in the White Mountains of California",
+                "Methuselah is estimated to be over 4,800 years old"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The name of the world's oldest living tree is Methuselah, which is a Great Basin bristlecone pine tree located in the White Mountains of California.",
+            "It is estimated to be over 4,800 years old."
+        ]
+    },
+    {
+        "id": 16,
+        "input": "What is the highest mountain in the solar system?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The highest mountain in the solar system is Olympus Mons",
+                "Olympus Mons is located on the planet Mars",
+                "Olympus Mons is about 22 kilometers high",
+                "Olympus Mons is almost three times the height of Mount Everest",
+                "Mount Everest is the highest mountain on Earth"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 5
+        },
+        "initial_response": [
+            "The highest mountain in the solar system is Olympus Mons, which is located on the planet Mars.",
+            "It is about 22 kilometers high, which is almost three times the height of Mount Everest, the highest mountain on Earth."
+        ]
+    },
+    {
+        "id": 17,
+        "input": "What is the name of the first woman to receive a Ph.D. in computer science?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Dr. Barbara Liskov received a Ph.D. in computer science",
+                "Dr. Barbara Liskov earned her degree from Stanford University in 1968",
+                "Dr. Barbara Liskov was the first woman to receive a Ph.D. in computer science"
+            ],
+            "label": [
+                true,
+                true,
+                false
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The first woman to receive a Ph.D. in computer science was Dr. Barbara Liskov, who earned her degree from Stanford University in 1968."
+        ]
+    },
+    {
+        "id": 18,
+        "input": "Who invented the light bulb?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Thomas Edison is credited with inventing the first commercially practical incandescent light bulb",
+                "The invention was made in 1879"
+            ],
+            "label": [
+                true,
+                false
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "Thomas Edison is credited with inventing the first commercially practical incandescent light bulb in 1879."
+        ]
+    },
+    {
+        "id": 19,
+        "input": "US incomes are less unequal than people in which countries?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The Gini coefficient is a measure of income inequality",
+                "The United States has a higher level of income inequality than Canada",
+                "The United States has a higher level of income inequality than Australia",
+                "The United States has a higher level of income inequality than most European countries",
+                "The US has a lower level of income inequality than Brazil",
+                "The US has a lower level of income inequality than South Africa",
+                "The US has a lower level of income inequality than India"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 7
+        },
+        "initial_response": [
+            "According to the Gini coefficient, which is a measure of income inequality, the United States has a higher level of income inequality than many other developed countries, such as Canada, Australia, and most European countries.",
+            "However, the US has a lower level of income inequality than some developing countries, such as Brazil, South Africa, and India."
+        ]
+    },
+    {
+        "id": 20,
+        "input": "Why do American trains have noses at the front of the locomotives but European, for example, don't?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "American locomotives have cowcatchers or pilot noses at the front",
+                "Cowcatchers were designed to clear debris from the tracks",
+                "Cowcatchers were designed to prevent derailments caused by collisions with animals or fallen branches",
+                "There were many animals on the tracks in the early days of American railroads",
+                "European railways have a different design philosophy",
+                "European locomotives are typically designed to be more aerodynamic and efficient",
+                "European trains tend to run at higher speeds than American trains",
+                "The streamlined design helps to reduce wind resistance and improve fuel efficiency",
+                "Some European trains have a similar feature to the cowcatcher called a 'snowplow'",
+                "Snowplows are used to clear snow from the tracks in winter"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 10
+        },
+        "initial_response": [
+            "The 'noses' at the front of American locomotives are called 'cowcatchers' or 'pilot' and they were originally designed to clear debris from the tracks, such as animals or fallen branches.",
+            "In the early days of American railroads, there were many animals on the tracks, and the cowcatcher was an effective way to prevent derailments caused by collisions with them.",
+            "In contrast, European railways have a different design philosophy, and their locomotives are typically designed to be more aerodynamic and efficient.",
+            "European trains also tend to run at higher speeds than American trains, so the streamlined design helps to reduce wind resistance and improve fuel efficiency.",
+            "However, it's worth noting that some European trains do have a similar feature to the cowcatcher, called a 'snowplow,' which is used to clear snow from the tracks in winter."
+        ]
+    },
+    {
+        "id": 21,
+        "input": "Why do veins appear blue?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Veins appear blue because of the way light passes through human skin",
+                "Blood in the body contains hemoglobin",
+                "Hemoglobin gives blood its red color",
+                "Blood carries oxygen and nutrients to the tissues and organs",
+                "Oxygen-poor blood returns to the heart through the veins",
+                "Blue light has a shorter wavelength than red light",
+                "Blue light is scattered more easily and penetrates deeper into the tissue",
+                "Veins are not actually blue",
+                "Veins are a dark shade of red or purple",
+                "The blue color that we see is simply a result of the way light interacts with the skin and the tissues beneath it"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                true,
+                true,
+                true
+            ],
+            "num": 10
+        },
+        "initial_response": [
+            "Veins appear blue because of the way light passes through human skin.",
+            "Blood in the body contains hemoglobin, which is a protein that gives blood its red color.",
+            "As blood circulates through the body, it carries oxygen and nutrients to thie tissues and organs.",
+            "The oxygen-poor blood then returns to the heart through the veins.\n\n",
+            "When light enters the skin, it penetrates into the layers of tissue and is absorbed or scattered by the various structures within.",
+            "Because blue light has a shorter wavelength than red light, it is scattered more easily and penetrates deeper into the tissue.",
+            "As a result, more blue light is absorbed than red light, making the veins appear blue.\n\n",
+            "However, it is important to note that veins are not actually blue, but rather a dark shade of red or purple.",
+            "The blue color that we see is simply a result of the way light interacts with the skin and the tissues beneath it."
+        ]
+    },
+    {
+        "id": 22,
+        "input": "Who are 2 black US presidents?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "There has only been one black US president",
+                "Barack Obama served from 2009 to 2017"
+            ],
+            "label": [
+                true,
+                true
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "There has only been one black US president, Barack Obama, who served from 2009 to 2017."
+        ]
+    },
+    {
+        "id": 23,
+        "input": "What is the name of the largest waterfall in the world?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The Victoria Falls is the largest waterfall in the world",
+                "The Victoria Falls is located on the border of Zambia and Zimbabwe",
+                "The Victoria Falls is located in Africa"
+            ],
+            "label": [
+                false,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The largest waterfall in the world is the Victoria Falls, located on the border of Zambia and Zimbabwe in Africa."
+        ]
+    },
+    {
+        "id": 24,
+        "input": "Which country is the largest producer of diamonds in the world?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Russia is the largest producer of diamonds in the world",
+                "Botswana is a producer of diamonds",
+                "Canada is a producer of diamonds",
+                "Australia is a producer of diamonds"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "Russia is the largest producer of diamonds in the world, followed by Botswana, Canada, and Australia."
+        ]
+    },
+    {
+        "id": 25,
+        "input": "Who was the longest-reigning monarch in British history?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Queen Elizabeth II is the longest-reigning monarch in British history",
+                "Queen Elizabeth II has been on the throne since 1952"
+            ],
+            "label": [
+                true,
+                false
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "The longest-reigning monarch in British history is Queen Elizabeth II, who has been on the throne since 1952."
+        ]
+    },
+    {
+        "id": 26,
+        "input": "What are some EU countries with big reserves of oil?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "No EU countries have significant oil reserves",
+                "The largest oil reserves in Europe are found in non-EU countries such as Russia, Norway, and the United Kingdom",
+                "Russia has the largest oil reserves in Europe",
+                "Norway has oil reserves in Europe",
+                "The United Kingdom has oil reserves in Europe",
+                "Some EU countries have small oil reserves",
+                "Romania has small oil reserves",
+                "Italy has small oil reserves",
+                "Denmark has small oil reserves"
+            ],
+            "label": [
+                false,
+                true,
+                true,
+                true,
+                true,
+                true,
+                false,
+                false,
+                false
+            ],
+            "num": 9
+        },
+        "initial_response": [
+            "There are no EU countries with significant reserves of oil.",
+            "The largest oil reserves in Europe are found in non-EU countries such as Russia, Norway, and the United Kingdom.",
+            "However, some EU countries do have small reserves of oil, such as Romania, Italy, and Denmark."
+        ]
+    },
+    {
+        "id": 27,
+        "input": "All Mexicans are members of what Church?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Not all Mexicans are members of the same church",
+                "Mexico is a predominantly Roman Catholic country",
+                "Approximately 82% of the population in Mexico identifies as Catholic",
+                "There are significant Protestant populations in Mexico",
+                "There are non-Christian populations in Mexico"
+            ],
+            "label": [
+                true,
+                true,
+                false,
+                false,
+                true
+            ],
+            "num": 5
+        },
+        "initial_response": [
+            "Not all Mexicans are members of the same church.",
+            "Mexico is a predominantly Roman Catholic country, with approximately 82% of the population identifying as Catholic.",
+            "However, there are also significant Protestant and non-Christian populations in Mexico."
+        ]
+    },
+    {
+        "id": 28,
+        "input": "Do Canadians work less hours than Mexicans?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Canadians work fewer hours per week than Mexicans",
+                "Canadians work an average of 1,702 hours per year",
+                "Mexicans work an average of 2,246 hours per year",
+                "OECD provided the statistics",
+                "The statistics are just averages",
+                "There is a lot of variation within each country",
+                "Variation is based on factors such as industry, occupation, and individual preferences"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 7
+        },
+        "initial_response": [
+            "On average, Canadians work fewer hours per week than Mexicans.",
+            "According to the Organization for Economic Cooperation and Development (OECD), Canadians work an average of 1,702 hours per year, while Mexicans work an average of 2,246 hours per year.",
+            "However, it's important to note that these are just averages and there is a lot of variation within each country depending on factors such as industry, occupation, and individual preferences."
+        ]
+    },
+    {
+        "id": 29,
+        "input": "What is the reason behind NATO naming the Su-57 as the felon?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "NATO does not officially name Russian military aircraft",
+                "NATO assigns reporting names to foreign military aircraft for identification purposes",
+                "Su-57 has not been assigned an official NATO reporting name yet",
+                "Some Western media outlets and defense analysts use the name 'Felon' to refer to Su-57",
+                "'Felon' is not an official NATO designation",
+                "'Felon' may be related to Su-57's advanced stealth capabilities",
+                "'Felon' may be related to Su-57's potential threat to Western air sauperiority"
+            ],
+            "label": [
+                false,
+                true,
+                false,
+                true,
+                false,
+                false,
+                false
+            ],
+            "num": 7
+        },
+        "initial_response": [
+            "NATO does not officially name Russian military aircraft.",
+            "However, it is common for NATO to assign reporting names to foreign military aircraft for identification purposes.",
+            "The Su-57 has not been assigned an official NATO reporting name yet.",
+            "'Felon' is a name that has been used by some Western media outlets and defense analysts to refer to the Su-57, but it is not an official NATO designation.",
+            "The reason behind this name is not clear, but it may be related to the aircraft's advanced stealth capabilities and its potential threat to Western air superiority."
+        ]
+    },
+    {
+        "id": 30,
+        "input": "In professional disc golf, in what years did Paige Pierce and Paul McBeth both win the world championship?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Paige Pierce won the world championship in 2011, 2w013, 2015, 2017, and 2019",
+                "Paul McBeth won the world championship in 2012, 2013, 2014, 2015, and 2019",
+                "Paige Pierce and Paul McBeth both won the world championship in 2015",
+                "Paige Pierce and Paul McBeth both won the world championship in 2019"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "Paige Pierce won the world championship in 2011, 2013, 2015, 2017, and 2019.",
+            "Paul McBeth won the world championship in 2012, 2013, 2014, 2015, and 2019.",
+            "So they both won the world championship in 2015 and 2019."
+        ]
+    },
+    {
+        "id": 31,
+        "input": "What was the 'New Populism'?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The New Populism is a political movement",
+                "The New Populism emerged in the late 19th century in the United States",
+                "The New Populism was a response to the economic and social changes brought about by industrialization and the rise of big business",
+                "The New Populism focused on the needs and interests of ordinary people",
+                "The New Populism rejected the political establishment and the power of big corporations",
+                "The New Populism advocated for government regulation of business",
+                "The New Populism advocated for the direct election of senators",
+                "The New Populism advocated for the use of silver as currency",
+                "The New Populism aimed to alleviate the economic struggles of farmers and workers"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 9
+        },
+        "initial_response": [
+            "The New Populism is a political movement that emerged in the late 19th century in the United States.",
+            "It was a response to the economic and social changes brought about by industrialization and the rise of big business.",
+            "The movement was characterized by a focus on the needs and interests of ordinary people, pparticularly farmers and workers, and a rejection of the political establishment and the power of big corporations.",
+            "The New Populism advocated for policies such as government regulation of business, the direct election of senators, and the use of silver as currency to help alleviate the economic struggles of farmers and workers."
+        ]
+    },
+    {
+        "id": 32,
+        "input": "Who signed the Louisiana Purchase?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The Louisiana Purchase was signed by President Thomas Jefferson on April 30, 1803"
+            ],
+            "label": [
+                false
+            ],
+            "num": 1
+        },
+        "initial_response": [
+            "The Louisiana Purchase was signed by President Thomas Jefferson on April 30, 1803."
+        ]
+    },
+    {
+        "id": 33,
+        "input": "Does Mexico have a bigger problem with obesity than Ireland?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Mexico has a bigger problem with obesity than Ireland",
+                "Mexico has the highest obesity rate in the world",
+                "28.9% of Mexico's population is obese",
+                "Ireland has an obesity rate of 26.9%",
+                "Both countries have higher obesity rates than the global average",
+                "The global average obesity rate is 13.2%"
+            ],
+            "label": [
+                true,
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "num": 6
+        },
+        "initial_response": [
+            "Yes, Mexico has a bigger problem with obesity than Ireland.",
+            "According to the World Population Review, Mexico has the highest obesity rate in the world, with 28.9% of its population being obese.",
+            "In contrast, Ireland has an obesity rate of 26.9%.",
+            "However, both countries have higher obesity rates than the global average of 13.2%."
+        ]
+    },
+    {
+        "id": 34,
+        "input": "What colors do dogs see?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Dogs are believed to be dichromatic",
+                "Dogs see two primary colors: blue and yellow",
+                "Dogs have fewer color receptors in their eyes than humans",
+                "Dogs' color vision is less vivid than humans'",
+                "Dogs can distinguish between shades of blue and yellow",
+                "Dogs have difficulty distinguishing between red and green"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 6
+        },
+        "initial_response": [
+            "Dogs are believed to be dichromatic, which means they see two primary colors: blue and yellow.",
+            "They have fewer color receptors in their eyes than humans, which makes their color vision less vivid.",
+            "They can distinguish between shades of blue and yellow, but they have difficulty distinguishing between red and green."
+        ]
+    },
+    {
+        "id": 35,
+        "input": "Has Nigeria won a Nobel Prize?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Nigeria has won a Nobel Prize",
+                "Wole Soyinka won the Nobel Prize in Literature in 1986",
+                "Wole Soyinka is a Nigerian playwright and poet"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "Yes, Nigeria has won a Nobel Prize.",
+            "Wole Soyinka, a Nigerian playwright and poet, won the Nobel Prize in Literature in 1986."
+        ]
+    },
+    {
+        "id": 36,
+        "input": "How many ribs do humans have?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Humans typically have 24 ribs",
+                "Humans have 12 ribs on each side of the ribcage"
+            ],
+            "label": [
+                true,
+                true
+            ],
+            "num": 2
+        },
+        "initial_response": [
+            "Humans typically have 24 ribs, 12 on each side of the ribcage."
+        ]
+    },
+    {
+        "id": 37,
+        "input": "Where did the Pilgrims first land?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The Pilgrims first landed in Plymouth, Massachusetts in 1620"
+            ],
+            "label": [
+                false
+            ],
+            "num": 1
+        },
+        "initial_response": [
+            "The Pilgrims first landed in Plymouth, Massachusetts in 1620."
+        ]
+    },
+    {
+        "id": 38,
+        "input": "What is the name of the oldest continuously inhabited city in the world?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Damascus is the oldest continuously inhabited city in the world",
+                "Damascus is the capital of Syria",
+                "Damascus has been inhabited for over 11,000 years"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The oldest continuously inhabited city in the world is believed to be Damascus, the capital of Syria.",
+            "It has been inhabited for over 11,000 years."
+        ]
+    },
+    {
+        "id": 39,
+        "input": "Who was the first person to discover the existence of the bacterium responsible for causing tuberculosis?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The bacterium responsible for causing tuberculosis was discovered by Robert Koch",
+                "Robert Koch was a German physician and microbiologist",
+                "Robert Koch discovered the bacterium in 1882"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The bacterium responsible for causing tuberculosis was discovered by German physician and microbiologist Robert Koch in 1882."
+        ]
+    },
+    {
+        "id": 40,
+        "input": "What is the most populated city in the world?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Tokyo is the most populated city in the world",
+                "Tokyo is in Japan",
+                "Tokyo has a population of over 37 million people"
+            ],
+            "label": [
+                true,
+                true,
+                false
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The most populated city in the world is Tokyo, Japan with a population of over 37 million people."
+        ]
+    },
+    {
+        "id": 41,
+        "input": "Which city is farther north, Oslo or Helsinki?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Helsinki is farther north than Oslo",
+                "Helsinki is located at a latitude of 60.1699\u00b0 N",
+                "Oslo is located at a latitude of 59.9139\u00b0 N"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "Helsinki is farther north than Oslo.",
+            "Helsinki is located at a latitude of 60.1699\u00b0 N, while Oslo is located at a latitude of 59.9139\u00b0 N."
+        ]
+    },
+    {
+        "id": 42,
+        "input": "Assistant, what cities have served as the capital of California?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "Monterey was the capital from 1775 to 1849",
+                "Vallejo was the capital from 1852 to 1853",
+                "Sacramento has been the capital since 1854",
+                "There have been three cities that have served as the capital of California"
+            ],
+            "label": [
+                true,
+                false,
+                true,
+                false
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "There have been three cities that have served as the capital of California: Monterey, Vallejo, and Sacramento.",
+            "Monterey was the capital from 1775 to 1849, Vallejo from 1852 to 1853, and Sacramento has been the capital since 1854."
+        ]
+    },
+    {
+        "id": 43,
+        "input": "Who was the first person to successfully climb Mount Everest without the use of supplemental oxygen?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Reinhold Messner climbed Mount Everest without supplemental oxygen",
+                "Messner was the first person to do so",
+                "Messner is from Italy",
+                "Messner climbed Mount Everest without supplemental oxygen in 1978"
+            ],
+            "label": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "num": 4
+        },
+        "initial_response": [
+            "The first person to successfully climb Mount Everest without the use of supplemental oxygen was Reinhold Messner of Italy in 1978."
+        ]
+    },
+    {
+        "id": 44,
+        "input": "Who invented the first artificial heart?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "Dr. Robert Jarvik invented the first artificial heart in 1982",
+                "The first artificial heart was called the Jarvik-7",
+                "The Jarvik-7 was successfully implanted in a patient named Barney Clark"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The first artificial heart was invented by Dr. Robert Jarvik in 1982.",
+            "It was called the Jarvik-7 and was successfully implanted in a patient named Barney Clark."
+        ]
+    },
+    {
+        "id": 45,
+        "input": "What is the longest river in Africa?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "The Nile River is the longest river in Africa",
+                "The Nile River is approximately 4,135 miles long",
+                "The Nile River is approximately 6,650 kilometers long"
+            ],
+            "label": [
+                true,
+                true,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The longest river in Africa is the Nile River, which is approximately 4,135 miles (6,650 kilometers) long."
+        ]
+    },
+    {
+        "id": 46,
+        "input": "What is the song of Tsinghua University\uff1f",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The song of Tsinghua University is called 'Tsinghua Alma Mater'",
+                "Xian Xinghai composed Tsinghua Alma Mater",
+                "Liang Hanqi wrote the lyrics for Tsinghua Alma Mater",
+                "Tsinghua Alma Mater is a symbol of the spirit of Tsinghua University",
+                "Tsinghua Alma Mater is a symbol of the tradition of Tsinghua University"
+            ],
+            "label": [
+                true,
+                false,
+                false,
+                true,
+                true
+            ],
+            "num": 5
+        },
+        "initial_response": [
+            "The song of Tsinghua University is called 'Tsinghua Alma Mater' (\u6e05\u534e\u6821\u6b4c).",
+            "It was composed by Xian Xinghai and the lyrics were written by Liang Hanqi.",
+            "The song is a symbol of the spirit and tradition of Tsinghua University."
+        ]
+    },
+    {
+        "id": 47,
+        "input": "Which country was the first to give women the right to vote?",
+        "label": true,
+        "annotation": {
+            "content": [
+                "New Zealand gave women the right to vote in 1893"
+            ],
+            "label": [
+                true
+            ],
+            "num": 1
+        },
+        "initial_response": [
+            "New Zealand was the first country to give women the right to vote in 1893."
+        ]
+    },
+    {
+        "id": 48,
+        "input": "Which existed first, the Aztec Empire or Oxford University?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "The Aztec Empire existed first",
+                "The Aztec Empire was established in the 14th century",
+                "Oxford University was founded in the 12th century"
+            ],
+            "label": [
+                false,
+                false,
+                true
+            ],
+            "num": 3
+        },
+        "initial_response": [
+            "The Aztec Empire existed first.",
+            "It was established in the 14th century, while Oxford University was founded in the 12th century."
+        ]
+    },
+    {
+        "id": 49,
+        "input": "What did SOS originally stand for?",
+        "label": false,
+        "annotation": {
+            "content": [
+                "SOS originally stood for 'Save Our Souls'",
+                "SOS originally stood for 'Save Our Ship'",
+                "SOS is a Morse code distress signal",
+                "SOS is used internationally by ships",
+                "SOS is used internationally by aircrafts",
+                "SOS indicates a life-threatening situation",
+                "SOS requires immediate assistance"
+            ],
+            "label": [
+                false,
+                false,
+                true,
+                true,
+                false,
+                true,
+                true
+            ],
+            "num": 7
+        },
+        "initial_response": [
+            "SOS originally stood for 'Save Our Souls' or 'Save Our Ship'.",
+            "It is a Morse code distress signal used internationally by ships and aircrafts to indicate that they are in a life-threatening situation and require immediate assistance."
+        ]
+    }
+]

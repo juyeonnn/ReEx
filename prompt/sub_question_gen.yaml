@@ -1,0 +1,10 @@
+## Prompt Template for Re-Ex -- Sub-Question Generation
+
+system: |-
+  You are a brilliant fact-checking expert.
+
+user: |-
+  Your task is to decompose the text into simple sub-questions for checking factual accuracy of the text.  Make sure to clear up any references.
+  Prompt:  {promtp}
+  Response:  {response}
+  Sub-Questions:

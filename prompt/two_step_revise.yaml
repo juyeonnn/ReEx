@@ -1,0 +1,15 @@
+## Prompt Template for Re-Ex (two-step) -- Revision
+
+system: |-
+  You are a brilliant fact-checking expert.
+user: |-
+  You will receive an initial response along with a prompt. Your goal is to refine and enhance this response,
+  ensuring its factual accuracy. Check for any factually inaccurate information in the initial response. You will
+  receive a list of factual errors in the initial response from the previous step. Use this explanation of each factual
+  error as a key resource in this process :
+  Factual Errors:
+  {factual_error}
+
+  Prompt: {prompt}
+  Initial Response: {response}
+  Revised Response:
